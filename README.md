@@ -14,7 +14,7 @@
 
 
 ### QR CODE
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@KING-BOT-OFFICIAL/KING-BOT-MD?outputonly=1&lite=1)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@KING-BOT-OFFICIAL/KING-BOT-MD?v-1?outputonly=1&lite=1)
 
 ### Deploy Page
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
@@ -48,7 +48,7 @@ Add FFmpeg to PATH environment variable
 <!-- Start via Heroku -->
 <b><details><summary>Start via Heroku</summary></b>
 
-* Scan QR In Your Whatsapp From [Here](https://replit.com/@KING-BOT-OFFICIAL/KING-BOT-MD?outputonly=1&lite=1)
+* Scan QR In Your Whatsapp From [Here](https://replit.com/@KING-BOT-OFFICIAL/KING-BOT-MD?v-1?outputonly=1&lite=1)
 * Fork This Repo By Clicking [Here](https://github.com/KING-BOT-OFFICIAL/KING-BOT-MD/fork)
 * then Deploy The Bot From [Here](https://heroku.com/deploy)
 * Wait 5-10 Min To Deploy 
