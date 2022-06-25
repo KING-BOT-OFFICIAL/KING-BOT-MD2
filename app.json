@@ -1,19 +1,59 @@
 {
-  "name": "Gojo-Satoru",
+  "name": "KING BOT - MD V1",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/nexusNw/Gojo-Satoru",
-  "logo": "https://telegra.ph/file/4c2c0174e86ac3bac2ba8.jpg",
+  "repository": "https://github.com/KING-BOT-OFFICIAL/KING-BOT-MD",
+  "logo": "https://telegra.ph/file/24b9b8507613125d34bd1.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
-  "buildpacks": [
+  "env": { 
+        "PEMILINK_NUMBER": {
+            "description": "නම්බර් එක දාන්න",
+            "required": true,
+            "value":"94729352830"
+        },
+        "PRIMIUM_NUMBER": {
+            "description": "නම්බර් එක දාන්න",
+            "required": true,
+            "value":"94729352830"
+        },
+        "OWNER_NAME": {
+            "description": "නම දාන්න",
+            "required": true,
+            "value":"ШHłТΞ HΛϾКΞЯS"
+        },
+        "BOT_NAME": {
+            "description": "බොට් owner නම",
+            "required": true,
+            "value":"[🇱🇰𝚱𝚰𝚴Ｇ 𝛃𝚯𝚪🤘] ᎷᎠ"
+        },
+       "STICKER_PACKAGE": {
+            "description": "ස්ටිකර් පැකේජ් name එක",
+            "required": true,
+            "value":"[🇱🇰𝚱𝚰𝚴Ｇ 𝛃𝚯𝚪🤘]"
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Exact name which you gave at the top",
+            "required": true,
+            "value":""
+        },
+        "session_Name": {
+            "description": "සෙසන් නේම් එක මේක් වෙනස් කරන්න ඔනි නෑ",
+            "required": true,
+            "value":"session"
+        },
+        "SP_IMOJI": {
+            "description": "කැමති ඉමෝජියක්",
+            "required": true,
+            "value":"🔥"
+        }
+                
+   },
+    "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     },
-    {
-            "url": "https://github.com/yespark/heroku-imagemagick-buildpack"
-        },
     {
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     }
